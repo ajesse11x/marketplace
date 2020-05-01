@@ -21,7 +21,9 @@
     "build": "npm run lint && npm run test",
     "build:ci": "npm run migrate up && npm run build",
     "start": "cd src && babel-node server.js",
-    "dev": "nodemon --exec npm run start"
+    "dev": "nodemon --exec npm run start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -68,10 +70,12 @@
     "sinon": "^5.0.3",
     "truffle-hdwallet-provider": "^1.0.16",
     "uuid": "^3.1.0",
-    "websocket": "^1.0.28"
+    "websocket": "^1.0.28",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "nodemon": "^1.14.11",
     "progress": "^2.0.0"
-  }
+  },
+  "snyk": true
 }
