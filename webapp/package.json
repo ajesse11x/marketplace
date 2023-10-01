@@ -15,7 +15,7 @@
     "remotebuild": "REACT_APP_VERSION=$(git rev-parse --short HEAD) NODE_PATH=/tmp/auction/webapp/node_modules node scripts/build.js"
   },
   "dependencies": {
-    "autoprefixer": "7.1.6",
+    "autoprefixer": "10.0.0",
     "axios": "^0.17.0",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
@@ -26,7 +26,7 @@
     "babel-runtime": "6.26.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
-    "css-loader": "0.28.7",
+    "css-loader": "5.0.0",
     "date-fns": "^1.29.0",
     "decentraland-commons": "^4.0.1",
     "decentraland-dapps": "^4.0.0",
@@ -54,8 +54,8 @@
     "lodash.debounce": "^4.0.8",
     "mouse-wheel": "^1.2.0",
     "object-assign": "4.1.1",
-    "postcss-flexbugs-fixes": "3.2.0",
-    "postcss-loader": "2.0.8",
+    "postcss-flexbugs-fixes": "5.0.0",
+    "postcss-loader": "4.0.0",
     "prettier": "1.12.1",
     "promise": "8.0.1",
     "prop-types": "^15.5.10",
