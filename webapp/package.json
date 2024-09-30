@@ -26,7 +26,7 @@
     "babel-runtime": "6.26.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
-    "css-loader": "0.28.7",
+    "css-loader": "1.0.0",
     "date-fns": "^1.29.0",
     "decentraland-commons": "^4.0.1",
     "decentraland-dapps": "^4.0.0",
