@@ -31,7 +31,7 @@
     "decentraland-commons": "^4.0.1",
     "decentraland-dapps": "^4.0.0",
     "decentraland-eth": "^8.16.1",
-    "decentraland-ui": "^1.13.1",
+    "decentraland-ui": "^1.19.0",
     "dotenv": "4.0.0",
     "dotenv-expand": "4.2.0",
     "eslint": "4.10.0",
